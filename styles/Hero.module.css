@@ -1,0 +1,50 @@
+.container {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.overlay {
+  position: absolute;
+  width: 100vw;
+  height: 95vh;
+  overflow: hidden;
+  z-index: -1;
+  background-color: black;
+}
+
+.backgroundImage {
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  margin: auto;
+}
+
+.heroText {
+  color: white;
+  font-size: 3rem;
+}
+
+.heroBtn {
+  border: 3px solid yellow;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  width: fit-content;
+  margin: auto;
+
+  transition: all 250ms ease-out;
+}
+
+.heroBtn:hover {
+  background-color: yellow;
+  color: black;
+}
