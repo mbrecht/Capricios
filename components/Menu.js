@@ -16,7 +16,7 @@ export default function Menu() {
             <div className={styles.menuGroup} key={groupName}>
               <h3 className={styles.menuGroupName}>{groupName}</h3>
               {items.map(({ name, description, price }) => (
-                <div className={styles.menuItem}>
+                <div className={styles.menuItem} key={name}>
                   <h4 className={styles.menuItemName}>{name}</h4>
                   <p className={styles.menuItemDescription}>{description}</p>
                   <p className={styles.menuItemPrice}>${price.toFixed(2)}</p>

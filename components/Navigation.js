@@ -10,7 +10,7 @@ export default function Navigation() {
       </div>
       <ul className={styles.menu}>
         <li className={`${styles.button} ${styles.orderBtn}`}>
-          <Link href="/#order">Order Now</Link>
+          <Link href="/order">Order Now</Link>
         </li>
         <li className={`${styles.button} ${styles.contactBtn}`}>
           <Link href="/#contact">Contact</Link>

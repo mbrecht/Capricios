@@ -11,6 +11,8 @@ export default function Hero() {
           className={styles.backgroundImage}
           src="/hero-background.jpg"
           layout="fill"
+          quality={10}
+          priority
         />
       </div>
       <div className={styles.heroContent}>

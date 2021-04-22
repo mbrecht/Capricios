@@ -1,17 +1,16 @@
 import React from "react";
-import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Head from "next/head";
+import styles from "../styles/Layout.module.css";
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className={styles.pageContainer}>
       <Head>
-        <title>Restaurant</title>
+        <title>Capricio's Italian Restaurant</title>
       </Head>
 
-      <Navigation />
-      <>{children}</>
+      <main className={styles.content}>{children}</main>
       <Footer />
     </div>
   );
