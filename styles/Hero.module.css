@@ -47,6 +47,10 @@
   transition: all 250ms ease-out;
 }
 
+.heroBtn a {
+  text-decoration: none;
+}
+
 .heroBtn:hover {
   background-color: yellow;
   color: black;
