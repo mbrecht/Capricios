@@ -45,3 +45,10 @@
   font-size: 1.25rem;
   margin: 0.5rem;
 }
+
+@media (max-width: 600px) {
+  .container {
+    /* Temporary hack */
+    padding-bottom: 50vh;
+  }
+}
