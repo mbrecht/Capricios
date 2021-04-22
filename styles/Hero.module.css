@@ -24,7 +24,11 @@
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .heroText {
@@ -38,8 +42,7 @@
   font-size: 2rem;
   font-weight: bold;
   padding: 0.75rem 1.5rem;
-  width: fit-content;
-  margin: auto;
+  /* width: fit-content; */
 
   transition: all 250ms ease-out;
 }
@@ -47,4 +50,11 @@
 .heroBtn:hover {
   background-color: yellow;
   color: black;
+}
+
+@media (max-width: 600px) {
+  .heroContent {
+    justify-content: flex-end;
+    padding-bottom: 5rem;
+  }
 }

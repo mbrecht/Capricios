@@ -1,1 +1,12 @@
+.container {
+}
 
+.title {
+  font-size: 1.5rem;
+}
+
+.subtitle,
+.phone,
+.email {
+  font-size: 1.25rem;
+}

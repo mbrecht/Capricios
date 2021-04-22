@@ -1,6 +1,4 @@
 .container {
-  display: flex;
-  justify-content: space-evenly;
   padding-top: 2rem;
   padding-bottom: 5rem;
   background-color: #111;
@@ -9,4 +7,18 @@
   position: static;
   bottom: 0;
   width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
+  .content {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+  }
 }
