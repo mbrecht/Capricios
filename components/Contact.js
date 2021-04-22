@@ -10,7 +10,7 @@ export default function Contact() {
         (PS: I'm a software engineer, this isn't a real restaurant)
       </p>
       <p className={styles.phone}>
-        <Link href="tel:6308098936">(630) 809-8936</Link>
+        <Link href="tel:5558675309">(555) 867-5309</Link>
       </p>
       <p className={styles.email}>
         <Link href="mailto:brecht.michael.b@gmail.com">

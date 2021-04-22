@@ -9,8 +9,7 @@ export default function Home() {
       <p>
         My name is Michael Brecht, and I'm a software engineer. Thanks for
         taking the time to stop by and take a look at my website. If you like
-        what you see, feel free to give me a call at{" "}
-        <Link href="tel:6308098936">(630) 809-8936</Link> or send an email to{" "}
+        what you see, feel free to send an email to{" "}
         <Link href="mailto:brecht.michael.b@gmail.com">
           brecht.michael.b@gmail.com
         </Link>
