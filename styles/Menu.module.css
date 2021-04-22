@@ -6,6 +6,9 @@
   flex-direction: column;
   align-items: center;
   row-gap: 1rem;
+
+  /* Temporary hack */
+  padding-bottom: 20vh;
 }
 
 .title {
